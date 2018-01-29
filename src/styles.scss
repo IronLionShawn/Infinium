@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "_variables.scss";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display|Roboto');
+
+@mixin crossBrowser($property, $css){
+	-webkit-#{$property}: $css;
+	-moz-#{$property}: $css;
+	-ms-#{$property}: $css;
+	-o-#{$property}: $css;
+	#{$property}: $css;
+}
+
+
+body{
+	//@include crossBrowser(background, url(./any.jpg) no-repeat center center fixed);
+	font-family: 'Playfair Display', 'Roboto', 'Open Sans', sans-serif;
+	background-color: rgb(156,156,156);
+}
+
+app-root {
+	background-color: $black;
+}
+
+.container {
+	padding-top: 20vh !important;
+}

@@ -1,0 +1,6 @@
+<section class="inf-card">
+	<h1>{{ cardInfo.title }}</h1>
+	<h3>{{ cardInfo.subHeading }}</h3>
+	<article *ngIf="cardInfo.message" [innerHTML]="cardInfo.message">
+	</article>
+</section>

@@ -7,10 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent 
 {
-	title 												= 'app';
-	private pages: string[]								= ['home','portfolio','services','quote','contact'];
+	public pages: string[]								= ['home','portfolio','services','quote','contact'];
 	constructor()
 	{
-		console.log(this);
+		
 	}
 }

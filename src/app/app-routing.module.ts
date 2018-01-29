@@ -32,7 +32,7 @@ const routes: Routes									= [
     CommonModule,
     RouterModule.forRoot(
     	routes,
-    	{enableTracing: true}, // debugging
+    	//{enableTracing: true}, // debugging
     ),
     NgbModule
   ],

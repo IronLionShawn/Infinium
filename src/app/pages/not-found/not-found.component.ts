@@ -8,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class NotFoundPage implements OnInit 
 {
 
-	private message: string								= '404';
-	constructor() { }
+	public message: string								= '404';
+	public constructor() { }
 
-	ngOnInit() 
+	public ngOnInit() 
 	{
 
 	}
